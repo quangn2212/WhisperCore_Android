@@ -423,8 +423,7 @@ Java_com_redravencomputing_whispercore_WhisperJNIBridge_fullTranscribe(
     params.print_timestamps = true;
     params.print_special = false;
     params.translate = false;
-    params.language = "auto";        // auto-detect language (English, Vietnamese, etc.)
-    params.detect_language = true;   // enable language auto-detection
+    params.language = "auto";        // auto-detect language then transcribe (English, Vietnamese, etc.)
     params.n_threads = num_threads;
     params.offset_ms = 0;
     params.no_context = true;
